@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StayCation", "StayCation.csproj", "{12DC0173-9DDF-4DF3-B254-FC29AAB1AFAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{25A11D3F-67C3-4A54-B964-453467B7ABE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{D912646E-8C68-471C-8989-22D457EFA230}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "StayCationDb", "..\StayCationDb\StayCationDb.sqlproj", "{B4D1430D-2B57-4A87-A324-18077DDC3D4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12DC0173-9DDF-4DF3-B254-FC29AAB1AFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DC0173-9DDF-4DF3-B254-FC29AAB1AFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DC0173-9DDF-4DF3-B254-FC29AAB1AFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DC0173-9DDF-4DF3-B254-FC29AAB1AFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D1430D-2B57-4A87-A324-18077DDC3D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D1430D-2B57-4A87-A324-18077DDC3D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D1430D-2B57-4A87-A324-18077DDC3D4E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B4D1430D-2B57-4A87-A324-18077DDC3D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D1430D-2B57-4A87-A324-18077DDC3D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D1430D-2B57-4A87-A324-18077DDC3D4E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12DC0173-9DDF-4DF3-B254-FC29AAB1AFAA} = {D912646E-8C68-471C-8989-22D457EFA230}
+		{B4D1430D-2B57-4A87-A324-18077DDC3D4E} = {25A11D3F-67C3-4A54-B964-453467B7ABE8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADCCB8D3-20A3-4C70-8BA0-796549A1A722}
+	EndGlobalSection
+EndGlobal

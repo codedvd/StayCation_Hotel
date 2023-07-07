@@ -1,0 +1,10 @@
+C:\Users\Decagon\Desktop\Decagon Task\week-7-codedvd\StayCationDb\obj\Debug\StayCationDb.sqlproj.AssemblyReference.cache
+C:\Users\Decagon\Desktop\Decagon Task\week-7-codedvd\StayCationDb\obj\Debug\StayCationDb.dll
+C:\Users\Decagon\Desktop\Decagon Task\week-7-codedvd\StayCationDb\obj\Debug\StayCationDb.pdb
+C:\Users\Decagon\Desktop\Decagon Task\week-7-codedvd\StayCationDb\bin\Debug\StayCationDb.dacpac
+C:\Users\Decagon\Desktop\Decagon Task\week-7-codedvd\StayCationDb\bin\Debug\StayCationDb.dll
+C:\Users\Decagon\Desktop\Decagon Task\week-7-codedvd\StayCationDb\bin\Debug\StayCationDb.pdb
+C:\Users\Decagon\Desktop\Decagon Task\week-7-codedvd\StayCationDb\obj\Debug\Model.xml
+C:\Users\Decagon\Desktop\Decagon Task\week-7-codedvd\StayCationDb\obj\Debug\refactor.xml
+C:\Users\Decagon\Desktop\Decagon Task\week-7-codedvd\StayCationDb\obj\Debug\postdeploy.sql
+C:\Users\Decagon\Desktop\Decagon Task\week-7-codedvd\StayCationDb\obj\Debug\predeploy.sql

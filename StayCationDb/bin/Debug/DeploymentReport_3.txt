@@ -1,0 +1,22 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [dbo].[PictureDb]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[PictureDb].[ImgName] is being dropped, data loss could occur.
+       The type for column Price in table [dbo].[PictureDb] is currently  VARCHAR (50) NULL but is being changed to  DECIMAL
+         (18) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type 
+         DECIMAL (18) NULL.
+
+** User actions
+     Recreate table
+       [dbo].[PictureDb] (Table)
+
+** Supporting actions
+
+The column [dbo].[PictureDb].[ImgName] is being dropped, data loss could occur.
+The type for column Price in table [dbo].[PictureDb] is currently  VARCHAR (50) NULL but is being changed to  DECIMAL (18) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  DECIMAL (18) NULL.
+

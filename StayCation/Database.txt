@@ -1,0 +1,17 @@
+| Blueoriginfams.svg | Blue Origin Fams | Jakarta Indonesia		| $50 per night    |                 |                                | Most Picks      |  false   |
+| Oceanland.svg      | Ocean Land       | Bandung Indonesia		| $22 per night    |                 |                                | Most Picks      |  false   |
+| Starkhouse.svg     | Stark House      | Malang Indonesia		| $856 per night   |                 |                                | Most Picks      |  false   |
+| Vinnavill.svg      | Vinna Vill       | Malang Indonesia		| $62 per night    |                 |                                | Most Picks      |  false   |
+| Bobox.svg			 | Bobox            | Medan Indonesia		| $72 per night    |                 |                                | Most Picks      |  false   |
+| Tabby.svg	         | Tabby Town       | Gunung Batu Indonesia |				   | beauty backyard | Houses with beauty backyard    | Popular Choice  |  true    |
+| Anggana.svg	     | Anggana          | Bogar Indonesia       |				   | beauty backyard | Houses with beauty backyard    |                 |  false   |
+| Seatle.svg         | Seatle Rain      | Jakarta Indonesia     |		           | beauty backyard | Houses with beauty backyard    |                 |  false   |
+| wooden.svg         | Woonden Pit      | Wonobo Indonesia	    |                  | beauty backyard | Houses with beauty backyard    |                 |  false   |
+| Greenpark.svg      | Green Park       | Tangerang Indonesia   |		           | living room     | Hotels with large living rooms |                 |  false   |
+| Podo-wae.svg       | Podo Wae         | Madium Indonesia      |		           | living room     | Hotels with large living rooms |                 |  false   |
+| Silver.svg		 | Silver Rain      | Bandung Indonesia     |		           | living room     | Hotels with large living rooms | Popular Choice  |  true    |
+| Cashville.svg		 | Cashville        | Bogar Indonesia       |                  | living room     | Hotels with large living rooms |                 |  false   |
+| Ps-wood.svg		 | Ps Wood          | Depok Indonesia		|                  | Apartment       | Apartment with kitchen set     |                 |  false   |
+| One-five.svg		 | One Five         | Jakarta Indonesia     |                  | Apartment       | Apartment with kitchen set     |                 |  false   |
+| Minimal.svg		 | Minimal          | Bogor Indonesia       |                  | Apartment       | Apartment with kitchen set     |                 |  false   |
+| stayshome.svg		 | Stays Home       | wonsobo Indonesia     |                  | Apartment       | Apartment with kitchen set     | Popular Choice  |  true    |

@@ -1,0 +1,139 @@
+﻿@model StayCation.Models.Customer
+@{
+    ViewBag.Title = "Register Page";
+}
+
+<!-- Section: Design Block -->
+<section class="text-center">
+  <!-- Background image -->
+  <div class="p-5 bg-image" style="
+        background-image: url('https://cdn.pixabay.com/photo/2023/06/16/05/26/grassland-8066987_1280.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        "></div>
+  <!-- Background image -->
+    @*<img src="~/img/bg03.png" class="mysignupIMg" />*@
+  <div class="card mx-4 mx-md-5 shadow-5-strong" style="
+        margin-top: -560px;
+        background: hsla(0, 0%, 100%, 0.8);
+        backdrop-filter: blur(90px); opacity: 70%
+        ">
+ 
+
+    <div class="card-body py-5 px-md-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-5">Sign up now</h2>
+
+          <form action="@Url.Action("SignUp", "Customer")" method="post">
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                    <label asp-for="FirstName" class="form-label" for="form3Example1"></label>
+                    @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control", required = "required" })
+                    @*<input asp-for="FirstName" id="form3Example1" class="form-control"  />*@
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+              </div>
+              <div class="loader"></div>
+              <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                    <label asp-for="LastName" class="form-label" for="form3Example2"></label>
+                    @Html.TextBoxFor(model => model.LastName, new { @class = "form-control", required = "required" })
+
+                    @*<input asp-for="LastName" id="form3Example2" class="form-control" />*@
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                        <label asp-for="Email" class="form-label" for="form3Example1"></label>
+                       @Html.TextBoxFor(model => model.Email, new { @class = "form-control", required = "required" })
+
+                        @*<input asp-for="Email" id="form3Example1" class="form-control" />*@
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                        <label asp-for="Phone" class="form-label" for="form3Example2"></label>
+                       @Html.TextBoxFor(model => model.Phone, new { @class = "form-control", required = "required" })
+
+                        @*<input asp-for="Phone" id="form3Example2" class="form-control" />*@
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                        <label asp-for="Password" class="form-label" for="form3Example1"></label>
+                        <div class="password-input-wrapper">
+                            <input type="password" id="passwordInput" class="form-control" required />
+                            <span class="password-toggle" onclick="togglePasswordVisibility()">
+                                <i id="toggleIcon" class="fa fa-eye-slash"></i>
+                            </span>
+                        </div>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                </div>
+
+              <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                        <label asp-for="UserName" class="form-label" for="form3Example2"></label>
+                       @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", required = "required" })
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+              <label class="form-check-label" for="form2Example33">
+                Confirm terms & Conditions
+              </label>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">
+              Sign up
+            </button>
+
+            <!-- Register buttons -->
+            <div class="text-center">
+              <p>or sign up with:</p>
+              <button type="button" class="btn btn-link btn-floating mx-1">
+                  <i class='bx bxl-facebook-circle'></i>
+              </button>
+
+              <button type="button" class="btn btn-link btn-floating mx-1">
+                  <i class='bx bxl-google'></i>
+              </button>
+
+              <button type="button" class="btn btn-link btn-floating mx-1">
+                 <i class='bx bxl-twitter'></i>
+              </button>
+
+              <button type="button" class="btn btn-link btn-floating mx-1">
+                 <i class='bx bxl-github'></i>
+              </button>
+            </div>
+          </form>
+            @section Scripts {
+                @{
+                    <partial name="_ValidationScriptsPartial" />
+                }
+            }
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

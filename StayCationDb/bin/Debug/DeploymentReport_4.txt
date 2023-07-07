@@ -1,0 +1,32 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [dbo].[PictureDb]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[PictureDb].[City] is being dropped, data loss could occur.
+       The type for column IsPopular in table [dbo].[PictureDb] is currently  VARCHAR (100) NULL but is being changed to 
+         VARCHAR (20) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with
+         type  VARCHAR (20) NULL.
+
+** User actions
+     Rename
+       [dbo].[PictureDb].[hotelImageUrl] (Column)
+       [dbo].[PictureDb].[hotelLocation] (Column)
+       [dbo].[PictureDb].[hotelPrice] (Column)
+       [dbo].[PictureDb].[hotelDescription] (Column)
+       [dbo].[PictureDb].[hotelName] (Column)
+       [dbo].[PictureDb].[hotelPopularity] (Column)
+     Recreate table
+       [dbo].[PictureDb] (Table)
+
+** Supporting actions
+
+The column [dbo].[PictureDb].[City] is being dropped, data loss could occur.
+The column hotelImageUrl on table [dbo].[PictureDb] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column hotelLocation on table [dbo].[PictureDb] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column hotelName on table [dbo].[PictureDb] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The type for column IsPopular in table [dbo].[PictureDb] is currently  VARCHAR (100) NULL but is being changed to  VARCHAR (20) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (20) NULL.
+

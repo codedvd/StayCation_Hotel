@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6f1d53dd-a1e8-4632-9f89-cf61a96bb323" ChangeDateTime="07/06/2023 00:12:49">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="880bd89a-fcb3-46ea-8190-349ea019e8fe" ChangeDateTime="07/06/2023 00:13:08">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[public string? Name { get; set; }]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="City" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6e6737c2-7e62-445e-a110-c3adf1a52e83" ChangeDateTime="07/06/2023 00:21:57">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[Ispopular]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsPopular" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a73a93b1-d65e-46e5-9566-3a46f36d1352" ChangeDateTime="07/06/2023 01:14:17">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[ImgUrl]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HotelImgUrl" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3a179e2c-685c-4f39-a07c-5008b1f18a70" ChangeDateTime="07/06/2023 01:14:40">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[HotelImgUrl]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="hotelImgUrl" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e52a57d2-a199-429b-9e5f-049ab2182ebc" ChangeDateTime="07/06/2023 01:14:59">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[hotelImgUrl]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="hotelImageUrl" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4f042c94-d66a-4bdd-8dfb-6985c48594ac" ChangeDateTime="07/06/2023 01:15:31">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[Location]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="hotelLocation" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="98d5b655-e105-44df-ad0a-3255005e3c92" ChangeDateTime="07/06/2023 01:15:42">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[Price]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="hotelPrice" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="166a86e1-46e1-4b84-9688-076aba55f189" ChangeDateTime="07/06/2023 01:16:00">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[Description]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="hotelDescription" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="62d7153c-20e9-4928-869a-728e42d09330" ChangeDateTime="07/06/2023 01:16:31">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[Type]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="hotelName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ff92c59d-880b-4307-aa04-4021247b4ad0" ChangeDateTime="07/06/2023 01:16:48">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[Popularity]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="hotelPopularity" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="61bbfd1d-bcda-4c7f-94c5-a889895b5cef" ChangeDateTime="07/06/2023 01:19:37">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[City]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="hotelName" />
+  </Operation>
+</Operations>
